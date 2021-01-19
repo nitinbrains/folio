@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id,npm } = project;
 
             return (
               <Row key={id}>
@@ -49,14 +49,22 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
+                      {npm? 
                       <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--hero"
+                      href={url || '#!'}
+                    >
+                      Repo
+                    </a>:<a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
                         See Live
-                      </a>
+                      </a>}
 
                       {repo && (
                         <a
