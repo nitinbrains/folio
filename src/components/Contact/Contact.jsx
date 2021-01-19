@@ -15,15 +15,15 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+             'Would you like to work with me? Awesome! Write to me @ <span style={{fontSize:'25px',fontWeight:'bolder'}}>nitinbrains@gmail.com</span> 
             </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href={email ? `mailto:${email}` : 'nitinbrains@gmail.com'}
             >
-              {btn || "Let's Talk"}
+              {btn || "Coffee with me"}
             </a>
           </div>
         </Fade>
