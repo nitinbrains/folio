@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi, i am',
+  title: 'Hi, I am',
   name: 'Nitin Sharma,',
   subtitle: 'a 24 year old React Js developer living in New Delhi, India.',
   cta: '',
@@ -17,11 +17,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile1.jpg',
-  paragraphOne: 'I am a Computer Science Engineer, currently working with QueueBuster POS. I began my journey in 2018, working as a web developer in an e-commerce startup. So far, i have around 3 years of experience in building Javascript/React Js based Web Applications. ',
-  paragraphTwo: 'I ❤️ javascript & have good understanding of React, Redux-thunk/saga, Jest & Enzyme, Gatsby, PWAs and Firebase🔥 etc.  ',
+  img: 'nit1.jpeg',
+  paragraphOne: 'I am a Computer Science Engineer, currently working with QueueBuster POS. I began my journey in 2018, working as a web developer in an e-commerce startup. So far, i have 3+ years of experience in building Javascript/React Js based Web Applications. ',
+  paragraphTwo: 'I ❤️ Javascript & have good understanding of React, Redux-thunk/saga, TDD(Jest) , Gatsby, PWAs and Firebase🔥 etc.  ',
   paragraphThree: ' I am quietly confident, naturally curious, and perpetually working on improving my technical chops, working with GraphQL, Design patterns, build pipeline tools & optimizations.',
-  resume: 'https://drive.google.com/file/d/1QW_uSHWH4mLiTQMOjbovOPEGJ0dPHbe6/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1bZTpKdVNmYgGBHnfDBHX_UnweqiCeYvL/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'betashop1.png',
+    img: 'qb2.png',
     title: 'QB-Ecom',
     info: 'It is an ecommerce web-app.',
     info2: 'Made with React, Redux(thunk), Reactstrap, Sass. ',
