@@ -11,15 +11,15 @@ export const headData = {
 export const heroData = {
   title: 'Hi, I am',
   name: 'Nitin Sharma,',
-  subtitle: 'a 24 year old React Js developer living in New Delhi, India.',
+  subtitle: 'a 26 year old React Js developer living in New Delhi, India.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'nit1.jpeg',
-  paragraphOne: 'I am a Computer Science Engineer, currently working with QueueBuster POS. I began my journey in 2018, working as a web developer in an e-commerce startup. So far, i have 3+ years of experience in building Javascript/React Js based Web Applications. ',
-  paragraphTwo: 'I ❤️ Javascript & have good understanding of React, Redux-thunk/saga, TDD(Jest) , Gatsby, PWAs and Firebase🔥 etc.  ',
+  paragraphOne: 'I am a Computer Science Engineer, currently working with Cognizant. I began my journey in 2018, working as a web developer in an e-commerce startup. So far, i have 3+ years of experience in building Javascript/React Js based Web Applications. ',
+  paragraphTwo: 'I ❤️ Javascript & have good understanding of React, Redux-thunk/saga, TDD - Jest, Vitest, React Testing library, Gatsby, PWAs, and Firebase🔥 etc.  ',
   paragraphThree: ' I am quietly confident, naturally curious, and perpetually working on improving my technical chops, working with GraphQL, Design patterns, build pipeline tools & optimizations.',
   resume: 'https://drive.google.com/file/d/1bZTpKdVNmYgGBHnfDBHX_UnweqiCeYvL/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'QueueBuster POS',
     info: 'QueueBuster is a powerful Mobile POS Solution for all kinds of businesses. From large format retail stores to small carts and kiosks, QueueBuster is all that you need to run your business with ease. Manage your Billing, Inventory, Loyalty/CRM, Payments and eCommerce from a single location, anytime anywhere.',
     info2: 'Its a very vast dashboard which has feautures to create Products, Inventory management, Vendor management, Payments and so and so. Made with React, Redux(Thunk), Reactstrap, Stripe etc. A lot of javascript libraries have been used like chart js, excel js, jspdf etc. ',
-    url: 'https://queuebuster.co/',
+    url: 'https://dev.queuebuster.co/',
    // repo: 'https://github.com/MapleGraph/qbweb-react', // if no repo, the button will not show up
   },
   {
@@ -69,6 +69,15 @@ export const projectsData = [
     info: 'Top Events Jamaica is an Event Management WebApp its an initiative of The Ministry of Tourism Jamaica under the Tourism Enhancement Fund (TEF).',
     info2: 'Made with React, Redux(thunk), Reactstrap, Sass.',
     url: 'https://www.topeventsinjamaica.com/',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '',
+    title: 'Verizon-VDSI-NSEBP Investment',
+    info: 'Cognizant-Verizon Project (Confidential).',
+    info2: 'Worked on Unit Testing, Component Testing and code coverage.',
+    url: '',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
