@@ -73,7 +73,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'qb1.png',
     title: 'Verizon-VDSI-NSEBP Investment',
     info: 'Cognizant-Verizon Project (Confidential).',
     info2: 'Worked on Unit Testing, Component Testing and code coverage.',
